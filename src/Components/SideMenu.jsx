@@ -26,6 +26,15 @@ function SideMenu() {
                 </li>
 
 
+                <li className="menuitem-active">
+                    <Link to="/contact" className="active">
+                        <i className="mdi mdi-view-dashboard-outline"></i>
+                        <span> Contact </span>
+                    </Link>
+                </li>
+
+
+
                 
 
                 

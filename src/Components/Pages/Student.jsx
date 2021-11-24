@@ -5,7 +5,7 @@ function Student(_props) {
             <th scope="row">{_props.Id}</th>
             <td>{_props.Name}</td>
             <td>{_props.Cgpa}</td>
-            <td><Link to={"/student/view/"+_props.Id}>View</Link></td>
+            <td><Link to={"/student/"+_props.Id}>View</Link></td>
         </tr>
     );
 }

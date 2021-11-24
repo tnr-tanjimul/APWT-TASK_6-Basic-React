@@ -5,6 +5,7 @@ import RightSidebar from "./Components/RightSidebar";
 import TopBar from "./Components/TopBar";
 import { BrowserRouter as Router, Route, Switch,useParams } from 'react-router-dom'
 import StudentDetails from "./Components/Pages/StudentDetails";
+import Contact from "./Components/Pages/Contact";
 function AppMain() {
     return (
         <Router>
@@ -26,6 +27,10 @@ function AppMain() {
 
                         <Route exact path="/student/:id">
                             <StudentDetails/>
+                        </Route>
+
+                        <Route exact path="/contact">
+                            <Contact></Contact>
                         </Route>
                     </Switch>
 
